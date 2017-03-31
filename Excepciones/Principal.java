@@ -9,7 +9,7 @@ public class Principal {
      * @return regresa la division de los numeros
      *
      */
-    public static int divideNumeros(int num1, int num2){
+    public static int dividenumeros(int num1, int num2){
         return num1/num2;
     }
 
