@@ -23,6 +23,7 @@ public class EjemploArchivos{
         catch(ClassNotFoundException ex){
             System.out.println(ex.getMessage());
         }
+
     }
 
     /*escribe un objeto "entero" en el archivo*/
@@ -85,6 +86,7 @@ public class EjemploArchivos{
         //escribeArchivo("prueba");
 
         try{
+            escribeArchivo("Alumnos.txt");
             escribeAlumno("Alumnos.dat");
             leeAlumno("Alumnos.dat");
             //leeArchivo("Alumnos.txt");
